@@ -2,10 +2,10 @@ export const Destinations=()=>{
     return(
         <div className="max-w-7xl mx-auto px-4">
             <div className="flex flex-col justify-center items-center gap-3">
-                <h1 className="subheading text-xs font-semibold">Top Selling</h1>
-                <h1 className="font-volkhov text-2xl font-bold">Top Destinations</h1>
+                <h1 className="subheading text-xs md:text-lg font-semibold">Top Selling</h1>
+                <h1 className="font-volkhov text-2xl md:text-5xl font-bold">Top Destinations</h1>
             </div>
-            <div className="flex flex-col justify-center items-center mt-10 gap-10">
+            <div className="flex flex-col md:flex-row md:gap-20 justify-center items-center mt-10 gap-10">
                 <div className="flex flex-col justify-center items-center max-w-7xl  shadow-[0_8px_15px_rgba(0,0,0,0.1)] rounded-2xl pb-2 pl-0.5">
                     <img src="./destinations/rome.png" alt="" className="w-60 h-full" />
                     <div className="flex w-full p-3 justify-between">

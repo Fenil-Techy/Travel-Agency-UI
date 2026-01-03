@@ -13,17 +13,17 @@ export const MainLayout = () => {
     return (
         <div className="">
             <NavBar />
-            <main >
-                <section >
+            <main className="min-h-screen">
+                <section>
                     <Hero />
                 </section>
-                <section className="py-10">
+                <section id="services" className="py-10 md:py-20">
                     <Services/>
                 </section>
-                <section className="py-15">
+                <section id="destinations" className="py-15">
                     <Destinations/>
                 </section>
-                <section className="py-15">
+                <section id="bookatrip" className="py-15">
                     <BookaTrip/>
                 </section>
                 <section className="py-15">
