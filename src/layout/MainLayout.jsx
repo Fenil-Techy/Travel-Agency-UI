@@ -17,7 +17,7 @@ export const MainLayout = () => {
                 <section>
                     <Hero />
                 </section>
-                <section id="services" className="py-10 md:py-20">
+                <section id="services" className="py-10 xl:py-20">
                     <Services/>
                 </section>
                 <section id="destinations" className="py-15">
@@ -26,10 +26,10 @@ export const MainLayout = () => {
                 <section id="bookatrip" className="py-15">
                     <BookaTrip/>
                 </section>
-                <section className="py-15">
+                <section className="py-15 xl:py-0">
                     <Testimonial/>
                 </section>
-                <section className="pb-10">
+                <section className="pb-10 xl:pb-0">
                     <Companies/>
                 </section>
                 <section className="py-15">
