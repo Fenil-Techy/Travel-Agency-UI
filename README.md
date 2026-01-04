@@ -1,16 +1,60 @@
-# React + Vite
+# 🌍 Jadoo – Travel Agency UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive **static travel agency UI** built by converting a **Figma design into real, production-ready code** using **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+This project focuses on **responsive layout design**, clean UI structure, and understanding how designs translate from Figma to the web across different screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:**  
+https://jadoo-travel-agency-ui.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Fully responsive (mobile → tablet → desktop)
+- Pixel-focused Figma to code conversion
+- Clean and reusable React components
+- Tailwind CSS for rapid UI development
+- Mobile-first responsive approach
+- Deployed on Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **Figma (Design Reference)**
+- **Vercel (Deployment)**
+
+---
+
+## 📱 Responsive Design
+
+This was my **first fully responsive UI project**, and a major learning experience.
+
+I worked through:
+- Responsive breakpoints (`sm`, `md`, `lg`, `xl`)
+- Layout issues across different screen sizes
+- Fixed width vs max-width usage
+- Absolute positioning challenges
+- Maintaining design consistency from Figma
+
+Instead of relying on generators or shortcuts, the goal was to **understand how responsive UI actually works in real-world scenarios**.
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+git clone https://github.com/your-username/jadoo-travel-agency-ui.git
+npm install
+npm run dev
+
+
+## Screenshots
+
+<img width="1880" height="909" alt="Screenshot 2026-01-04 175713" src="https://github.com/user-attachments/assets/9b94bb50-4893-4f67-bc24-51a7cd7cc4c0" />
+
