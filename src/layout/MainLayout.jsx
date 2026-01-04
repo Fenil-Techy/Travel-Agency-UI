@@ -1,6 +1,6 @@
 
 import { BookaTrip } from "../sections/BookaTrip"
-import { Companies } from "../sections/companylogo"
+import { Companies } from "../sections/Companylogo"
 import { Destinations } from "../sections/Destinations"
 import { Hero } from "../sections/Hero"
 import { Services } from "../sections/Services"
